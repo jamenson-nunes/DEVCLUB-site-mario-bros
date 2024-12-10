@@ -1,0 +1,100 @@
+/* força todo o site a considearr essas configurações */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* força todo o site a considearr essas configurações */
+
+.logo-mario{
+    height: 200px;
+    margin left: 50px;
+}
+     
+.botao-entre-contato{
+    color: white;
+    background-color: #c51111;
+    border: none;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 20px;
+
+}
+
+.imagem-mario-luigi{
+    height: 500px;
+}
+
+body{
+    height: 100vh; 
+}
+
+.caixa-mae {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px;
+    height: 100vh; 
+}
+
+
+.caixa-principal{
+    width: 40%;
+/* só podemos usar alighn e justfy se o display for flex*/   
+}
+
+.caixa-video {
+    position: fixed;
+    TOP: 0;
+    z-index: -1;
+}
+
+video{
+width: 100vw;
+}
+
+.mascara{
+height: 100%;
+width: 100%;
+background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+position: fixed;
+top: 0;
+}
+
+p {
+    color: white ;
+}
+
+.link-whatsapp img {
+    height: 60px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}  
+
+.header{
+    display: flex;
+    align-items: center; /* Alinhar no centro */
+    gap: 30px; /*-- discanciamento */
+    margin: 30px; /* distanciamento em todos os lados */
+}
+
+.header img{
+    height: 60px;
+}
+
+.header a{
+    color: white;
+    font-size: 25px;
+    cursor: pointer; /* para o cursor virar a maozinha quando passar por cima do texto do link */
+   }
+
+/* inserir ação para quando o mouse passar por cima do link */
+.header a:hover {
+    color: #c51111;
+    font-size: 30px;
+    transition: 0.5s ease-in-out;
+}
